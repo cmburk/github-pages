@@ -13,10 +13,15 @@ h1 {
 	color: red;
 }
 img  {
-	float: left;
+	float: right;
 	margin: 0 1em;
 }
 p {
 	margin: 0;
 	padding-bottom: .5em;
+}
+#service
+{
+	color:red;
+	clear:both;
 }
