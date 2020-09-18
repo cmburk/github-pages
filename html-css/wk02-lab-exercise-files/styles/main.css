@@ -23,5 +23,5 @@ h3{
 main {
 	clear: left;
 }
-
+a:hover{font-style:italic}
 /* the styles for the footer */
