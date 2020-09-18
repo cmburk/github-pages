@@ -5,6 +5,18 @@ body {
 }
 
 /* the styles for the header */
+header h2 {
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+
 header img {
 	float: left;
 }
