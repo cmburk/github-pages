@@ -13,6 +13,10 @@ body {
 }
 
 /* the styles for the header */
+header {
+	border-bottom: 3px solid #931240;
+}
+
 header h2 {
 	font-size: 170%;
 	color: #800000;
