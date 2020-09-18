@@ -1,7 +1,10 @@
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+	font-size: 100%;
+	width: 600px;
+	margin: 0px auto;
+	border: 3px solid #931240;
 }
 
 /* the styles for the header */
