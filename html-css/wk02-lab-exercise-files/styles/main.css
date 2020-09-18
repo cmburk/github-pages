@@ -49,15 +49,38 @@ main h1 {
 	font-size: 150%;
 	border-top: 3px solid #931240;
 	border-bottom: 3px solid #931240;
+	padding: 0.3em 0;
 }
 
 main h2 {
 	font-size: 130%;
 	color: #800000;
+	padding: 0.5em 0 0.25em 0;
 }
 
 main h3 {
 	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+main img {
+	padding-bottom: 1em;
+}
+
+main p {
+	padding-bottom: 0.5em;
+}
+
+main blockquote {
+	padding: 0 2em;
+}
+
+main ul {
+	padding: 0 0 0.25em 1.125em
+}
+
+main li {
+	padding-bottom: 0.35em;
 }
 
 a:focus {
