@@ -4,20 +4,32 @@ body {
     font-size: 100%;
 }
 
+.shadow {
+	text-shadow: 1px 1px #800000;
+}
+
 /* the styles for the header */
 header img {
 	float: left;
+	
+}
+h1{
+	font-size: 150%;
+
 }
 h2{
-	font-size:170%;
+	font-size:130%;
 	color: #800000;
 	text-indent: 30px;
 }
 h3{
-	font-size:130%;
-	font-style: italic;
+
+	font-size:105%;
+	font-style: Bold;
 	text-indent: 30px;
 }
+
+a:hover {font-style: italic;}
 
 /* the styles for the section */
 main {
@@ -25,3 +37,6 @@ main {
 }
 a:hover{font-style:italic}
 /* the styles for the footer */
+footer p{
+	text-align:center;
+}
