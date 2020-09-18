@@ -48,8 +48,12 @@ main {
 
 main h1 {
 	font-size: 150%;
-	border-top: 3px solid #931240;
-	border-bottom: 3px solid #931240;
+	/* border-top: 3px solid #931240; */
+	/* border-bottom: 3px solid #931240; */
+	border: 3px double #931240;
+	box-shadow: 3px 3px #000;
+	border-radius: 10px;
+	text-align: center;
 	padding: 0.3em 0;
 }
 
