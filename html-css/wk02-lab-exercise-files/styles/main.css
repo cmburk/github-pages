@@ -73,6 +73,7 @@ main p {
 
 main blockquote {
 	padding: 0 2em;
+	font-style: italic;
 }
 
 main ul {
