@@ -42,6 +42,7 @@ header img {
 /* the styles for the section */
 main {
 	clear: left;
+	padding: 0 30px;
 }
 
 main h1 {
