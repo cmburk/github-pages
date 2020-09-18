@@ -4,11 +4,14 @@ body {
     font-size: 100%;
 }
 
-
+.shadow {
+	text-shadow: 1px 1px #800000;
+}
 
 /* the styles for the header */
 header img {
 	float: left;
+	
 }
 h1{
 	font-size: 150%;
