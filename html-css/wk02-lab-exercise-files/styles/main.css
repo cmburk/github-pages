@@ -40,6 +40,8 @@ main {
 
 main h1 {
 	font-size: 150%;
+	border-top: 3px solid #931240;
+	border-bottom: 3px solid #931240;
 }
 
 main h2 {
