@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html {
 	background-color: white;
 }
@@ -15,22 +20,23 @@ body {
 /* the styles for the header */
 header {
 	border-bottom: 3px solid #931240;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
 }
 
 header h2 {
 	font-size: 170%;
 	color: #800000;
-	text-indent: 30px;
 }
 
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 
 header img {
 	float: left;
+	padding: 0 30px;
 }
 
 /* the styles for the section */
@@ -62,8 +68,14 @@ a:hover {
 }
 /* the styles for the footer */
 
+footer {
+	border-top: 3px solid #931240;
+	background-color: #931240;
+}
+
 footer p {
 	text-align: center;
+	color: white;
 }
 
 .shadow {
