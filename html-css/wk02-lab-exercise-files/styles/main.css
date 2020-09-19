@@ -22,6 +22,7 @@ header {
 	border-bottom: 3px solid #931240;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 
 header h2 {
@@ -47,17 +48,45 @@ main {
 
 main h1 {
 	font-size: 150%;
-	border-top: 3px solid #931240;
-	border-bottom: 3px solid #931240;
+	/* border-top: 3px solid #931240; */
+	/* border-bottom: 3px solid #931240; */
+	border: 3px double #931240;
+	box-shadow: 3px 3px #000;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0.3em 0;
 }
 
 main h2 {
 	font-size: 130%;
 	color: #800000;
+	padding: 0.5em 0 0.25em 0;
 }
 
 main h3 {
 	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+main img {
+	padding-bottom: 1em;
+}
+
+main p {
+	padding-bottom: 0.5em;
+}
+
+main blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+
+main ul {
+	padding: 0 0 0.25em 1.125em
+}
+
+main li {
+	padding-bottom: 0.35em;
 }
 
 a:focus {
@@ -77,6 +106,7 @@ footer {
 footer p {
 	text-align: center;
 	color: white;
+	padding: 1em 0;
 }
 
 .shadow {
