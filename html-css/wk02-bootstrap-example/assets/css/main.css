@@ -1,4 +1,8 @@
 .carousel-item {
     max-height:500px;
     }
-  
+
+.quote {
+    text-align: center;
+    margin: 72px auto;
+}
