@@ -6,3 +6,11 @@
     text-align: center;
     margin: 72px auto;
 }
+
+.card-section {
+    padding: 72px;
+}
+
+#transportation {
+    background-color: #ffbe76;
+}
