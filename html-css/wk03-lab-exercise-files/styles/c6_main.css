@@ -118,6 +118,9 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
+ul{
+	list-style-type: circle;
+}
 
 /* the styles for the article */
 article {
