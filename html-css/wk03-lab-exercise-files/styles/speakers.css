@@ -45,42 +45,11 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-
-
-
-/* Navigation */
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav ul li {
-	float: left;
-}
-
-nav ul li a {
-	display: block;
-	width: 160px;
-	text-align: center;
-	padding: 1em 0;
-	text-decoration: none;
-	background-color: #800000;
-	color: white;
-	font-weight: bold;
-}
-
-.current {
-	color: yellow;
-}
-
-
-
-
 /* the styles for the main content */
 main {
 	clear: left;
 }
+
 /* the styles for the section */
 section {
 	width: 525px;
@@ -88,14 +57,10 @@ section {
 	padding: 0 20px 20px 20px;
 }
 section h1 {
-	font-size: 150%;
-	padding: .5em 0 .25em 0;
-	margin: 0;               /* If you remove this, the margins in normalize.css will be applied. */
-}
-section h2 {
 	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
 }
 section p {
 	padding-bottom: .5em;
@@ -114,15 +79,10 @@ section li {
 /* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
 }
 article h2 {
-	padding-top: 0;
-}
-article h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
+	font-size: 115%;
+	padding: 0 0 .25em 0;
 }
 article img {
 	float: right;
