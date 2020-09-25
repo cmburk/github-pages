@@ -51,7 +51,7 @@ header img {
 /* Navigation */
 nav {
 	position: relative;	
-}
+} 
 
 nav ul {
 	list-style-type: none;
@@ -74,16 +74,25 @@ nav ul li a {
 	font-weight: bold;
 }
 
-nav ul li ul {
-	/*display: none;*/
+nav ul ul {
+	display: none;
 	position: absolute;
 	top: 100%;
 } 
 
-nav ul li ul li {
-	clear: left;
+nav ul ul li {
+	float: none;
 } 
 
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
 .current {
 	color: yellow;
 }
