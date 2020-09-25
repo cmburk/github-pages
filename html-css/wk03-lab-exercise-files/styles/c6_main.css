@@ -65,6 +65,9 @@ nav ul li a{
 	color: white;
 	font-weight: bold;
 }
+.current{
+	color: yellow;
+}
 /* the styles for the main content */
 main {
 	clear: left;
