@@ -45,6 +45,38 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+
+
+
+/* Navigation */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+.current {
+	color: yellow;
+}
+
+
+
+
 /* the styles for the main content */
 main {
 	clear: left;
