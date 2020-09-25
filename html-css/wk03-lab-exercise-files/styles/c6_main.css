@@ -54,6 +54,17 @@ nav ul li{
 	padding: 0;
 	margin: 0;
 }
+nav ul li a{
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
 /* the styles for the main content */
 main {
 	clear: left;
