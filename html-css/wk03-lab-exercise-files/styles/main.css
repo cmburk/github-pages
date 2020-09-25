@@ -49,6 +49,10 @@ header img {
 
 
 /* Navigation */
+nav {
+	position: relative;	
+} 
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -70,6 +74,25 @@ nav ul li a {
 	font-weight: bold;
 }
 
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+} 
+
+nav ul ul li {
+	float: none;
+} 
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
 .current {
 	color: yellow;
 }
@@ -106,6 +129,7 @@ section blockquote {
 }
 section ul {
 	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
 }
 section li {
 	padding-bottom: .35em;
