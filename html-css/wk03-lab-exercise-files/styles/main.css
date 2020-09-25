@@ -8,6 +8,9 @@ nav ul{
 	margin: 0px;
 	padding: 0px;
 }
+nav ul li{
+	float: left;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
