@@ -49,6 +49,10 @@ header img {
 
 
 /* Navigation */
+nav {
+	position: relative;	
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -69,6 +73,16 @@ nav ul li a {
 	color: white;
 	font-weight: bold;
 }
+
+nav ul li ul {
+	/*display: none;*/
+	position: absolute;
+	top: 100%;
+} 
+
+nav ul li ul li {
+	clear: left;
+} 
 
 .current {
 	color: yellow;
