@@ -75,8 +75,6 @@ nav ul li a{
 }
 #nav_menu ul li:hover>ul{
 	display: block;
-	position: absolute;
-	top: 100%;
 }
 .current{
 	color: yellow;
