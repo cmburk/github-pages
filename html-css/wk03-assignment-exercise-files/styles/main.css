@@ -229,6 +229,9 @@ footer p {
 		background: #800000 !important;
 	}
 
+	header {
+		text-align: center;
+	}
 
 	header img {
 		/* clear: both; */
