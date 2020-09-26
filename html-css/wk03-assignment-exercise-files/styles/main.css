@@ -41,11 +41,12 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 3.125%;
+	padding: 0 3.25%;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+
 /* the styles for the navigation menu */
 #nav_menu ul {
 	list-style-type: none;
@@ -57,6 +58,7 @@ header img {
 	float: left;
 	width: 20%;
 }
+
 #nav_menu ul li a {
     display: block;
     text-align: center;
@@ -76,6 +78,7 @@ header img {
 	top: 100%;
 	width: 100%;
 }
+
 #nav_menu ul ul li {
 	float: none;
 	width: 100%;
@@ -105,6 +108,7 @@ section {
 	float: right;
 	padding: 0 2.1% 2.1% 2.1%;
 }
+
 section h1 {
 	font-size: 150%;
 	padding: .5em 0 .25em 0;
@@ -153,7 +157,7 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 22.4%;
+	width: 23.4%;
 	float: right;
 	padding: 0 0 2.1% 2.1%;
 }
@@ -171,6 +175,7 @@ aside img {
 	padding-bottom: 1em;
 }
 
+
 /* the styles for the footer */
 footer {
 	background-color: #931420;
@@ -184,6 +189,7 @@ footer p {
 }
 
 
+
 /* media queries */
 
 @media only screen and (max-width: 959px){
@@ -195,7 +201,9 @@ footer p {
 	}
 }
 
+
 @media only screen and (max-width: 767px) {
+
 	#nav_menu {
 		display: none;
 	}
@@ -216,29 +224,32 @@ footer p {
 		text-align: center;
 	}
 
+
+	header img {
+		float: none;
+	}
+
+	header h2, header h3 {
+		text-align: center;
+	}
+	
+	section, aside {
+		float: none;
+		width: 95.8%;
+	}
+
 	aside {
 		padding-right: 2.1%;
-		width: 95.8%;
-	}
-
-	section {
-		width: 95.8%;
-	}
-
-	article img {
-		max-width: 30%;
 	}
 
 	aside .speakers {
 		column-count: 2;
 	}
-
-
 }
 
 @media only screen and (max-width: 479px) {
 	body {
 		font-size: 90%;
 	}
-
 }
+
