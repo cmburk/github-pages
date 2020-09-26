@@ -6,6 +6,7 @@
 html {
 	background-color: white;
 }
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -139,6 +140,8 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
+	max-width: 40%;
+	min-width: 150px;
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
@@ -174,4 +177,13 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+@media only screen and (max-width:959px){
+	section h1{
+		font-size: 135%;
+	}
+	section h2,aside h2{
+		font-size: 120%
+	}
+	
 }
