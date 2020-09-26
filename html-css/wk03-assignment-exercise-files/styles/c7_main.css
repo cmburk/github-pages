@@ -41,7 +41,7 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 30px;
+	padding: 0 3.1%;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -52,14 +52,15 @@ header img {
 	margin: 0;
 	padding: 0;
 	position: relative;
+	
 }
 #nav_menu ul li {
 	float: left;
-	width:100%;
+	width: 20%;
 }
 #nav_menu ul li a {
     display: block;
-    width: 160px;
+    
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -74,9 +75,11 @@ header img {
     display: none;
     position: absolute;
     top: 100%;
+	
 }
 #nav_menu ul ul li {
 	float: none;
+	width:100%;
 }
 #nav_menu ul li:hover > ul {
 	display: block;
@@ -93,9 +96,9 @@ main {
 
 /* the styles for the section */
 section {
-	width: 525px;
+	width: 54.68%;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 2% 20px 2%;
 }
 section h1 {
 	font-size: 150%;
@@ -143,9 +146,9 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 22.4%;
 	float: right;
-	padding: 0 0 20px 20px;
+	padding: 0 0 20px 2%;
 }
 aside h2 {
 	color: #800000;
