@@ -90,6 +90,7 @@ header img {
     clear: both;
     display: block;
 }
+#mobile_menu{display:none;}
 /* the styles for the main content */
 main {
 	clear: left;
@@ -210,7 +211,13 @@ footer p {
 	aside div{
 		column-count: 2;
 	}
-}
+	#nav_menu{display:none;}
+	#mobile_menu{
+		display:block;
+	}
+	.slicknav_menu{
+		background-color: #800000 !important;
+	}
 @media only screen and (max-width:479px){
 	body{
 		font-size: 90%;
