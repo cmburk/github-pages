@@ -225,8 +225,8 @@ footer p {
 		display: block;
 	}
 
-	.slicknav_menu {
-		background: #800000 !important;
+	#mobile_menu .slicknav_menu {
+		background-color: #800000;
 	}
 
 	header {
