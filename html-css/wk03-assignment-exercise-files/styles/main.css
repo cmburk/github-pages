@@ -9,7 +9,6 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-	/*width: 800px;*/
 	width: 98%;
 	max-width: 960px;
     margin: 0 auto;
@@ -42,7 +41,6 @@ header h3 {
 }
 header img {
 	float: left;
-	/*padding: 0 30px;*/
 	padding: 0 3.25%;
 }
 .shadow {
@@ -63,7 +61,6 @@ header img {
 
 #nav_menu ul li a {
     display: block;
-	/* width: 160px; */
 	width: 100%;
     text-align: center;
 	padding: 1em 0;
@@ -107,13 +104,11 @@ main {
 
 /* the styles for the section */
 section {
-	/*width: 525px;*/
 	width: 54.69%;
 	float: right;
-	/*padding: 0 20px 20px 20px;*/
 	padding: 0 2.1% 2.1% 2.1%;
-	width: 
 }
+
 section h1 {
 	font-size: 150%;
 	padding: .5em 0 .25em 0;
@@ -155,7 +150,6 @@ article h3 {
 article img {
 	float: right;
 	min-width: 150px;
-	/* max-width: 40%; */
 	max-width: 30%;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
@@ -163,10 +157,8 @@ article img {
 
 /* the styles for the aside */
 aside {
-	/*width: 215px;*/
 	width: 23.4%;
 	float: right;
-	/*padding: 0 0 20px 20px;*/
 	padding: 0 0 2.1% 2.1%;
 }
 aside h2 {
@@ -183,11 +175,6 @@ aside img {
 	padding-bottom: 1em;
 }
 
-/*
-aside .speakers {
-	column-count: 2;
-}
-*/
 
 /* the styles for the footer */
 footer {
@@ -234,7 +221,6 @@ footer p {
 	}
 
 	header img {
-		/* clear: both; */
 		float: none;
 	}
 
