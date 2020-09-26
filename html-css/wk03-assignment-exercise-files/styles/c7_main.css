@@ -97,7 +97,7 @@ main {
 
 /* the styles for the section */
 section {
-	width: 54.68%;
+	width: 65%;
 	float: right;
 	padding: 0 2% 20px 2%;
 }
@@ -186,4 +186,33 @@ footer p {
 		font-size: 120%
 	}
 	
+}
+@media only screen and (max-width:767px){
+	header img{
+		float: none;
+	}
+	header{
+		text-align: center;
+	}
+	section{
+		float:none;
+	}
+	aside{
+		float:none;
+		padding-right:2%;
+	}
+	section,aside{
+		width:96%;
+	}
+	section img{
+		max-width: 30%;
+	}
+	aside div{
+		column-count: 2;
+	}
+}
+@media only screen and (max-width:479px){
+	body{
+		font-size: 90%;
+	}
 }
