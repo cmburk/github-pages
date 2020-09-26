@@ -61,13 +61,13 @@ header img {
 
 #nav_menu ul li a {
     display: block;
-	width: 100%;
     text-align: center;
-	padding: 1em 0;
+    padding: 1em 0;
     text-decoration: none;
     background-color: #800000;
     color: white;
-    font-weight: bold;
+	font-weight: bold;
+	width: 100%;
 }
 #nav_menu a.current {
 	color: yellow;
@@ -77,8 +77,8 @@ header img {
     position: absolute;
 	top: 100%;
 	width: 100%;
-	background-color: pink;
 }
+
 #nav_menu ul ul li {
 	float: none;
 	width: 100%;
@@ -149,10 +149,10 @@ article h3 {
 }
 article img {
 	float: right;
-	min-width: 150px;
-	max-width: 30%;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+	max-width: 40%;
+	min-width: 150px;
 }
 
 /* the styles for the aside */
@@ -188,22 +188,22 @@ footer p {
 	padding: 1em 0;
 }
 
-/* Media Queries */
-@media screen and (max-width: 959px){
+
+
+/* media queries */
+
+@media only screen and (max-width: 959px){
 	section h1 {
 		font-size: 135%;
 	}
-
-	section h2 {
-		font-size: 120%;
-	}
-
-	aside h2 {
+	section h2, aside h2 {
 		font-size: 120%;
 	}
 }
 
-@media screen and (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
+
 	#nav_menu {
 		display: none;
 	}
@@ -213,12 +213,17 @@ footer p {
 	}
 
 	#mobile_menu .slicknav_menu {
-		background-color: #800000;
+		background: #800000;
+	}
+
+	header img, section, aside {
+		float: none;
 	}
 
 	header {
 		text-align: center;
 	}
+
 
 	header img {
 		float: none;
@@ -242,8 +247,9 @@ footer p {
 	}
 }
 
-@media screen and (max-width: 479px) {
+@media only screen and (max-width: 479px) {
 	body {
 		font-size: 90%;
 	}
 }
+
