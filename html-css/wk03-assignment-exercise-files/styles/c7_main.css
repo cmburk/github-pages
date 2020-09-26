@@ -9,7 +9,8 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 800px;
+	width: 98%;
+	max-width: 960px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -40,7 +41,7 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 30px;
+	padding: 0 3.125%;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -54,16 +55,17 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
+	width: 20%;
 }
 #nav_menu ul li a {
     display: block;
-    width: 160px;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
     background-color: #800000;
     color: white;
-    font-weight: bold;
+	font-weight: bold;
+	width: 100%;
 }
 #nav_menu a.current {
 	color: yellow;
@@ -71,19 +73,27 @@ header img {
 #nav_menu ul ul {
     display: none;
     position: absolute;
-    top: 100%;
+	top: 100%;
+	width: 100%;
 }
 #nav_menu ul ul li {
 	float: none;
+	width: 100%;
 }
 #nav_menu ul li:hover > ul {
 	display: block;
+	width: 20%;
 }
 #nav_menu > ul::after {
     content: "";
     clear: both;
     display: block;
 }
+
+#mobile_menu {
+	display: none;
+}
+
 /* the styles for the main content */
 main {
 	clear: left;
@@ -91,9 +101,9 @@ main {
 
 /* the styles for the section */
 section {
-	width: 525px;
+	width: 54.69%;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 2.1% 2.1% 2.1%;
 }
 section h1 {
 	font-size: 150%;
@@ -137,13 +147,15 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+	max-width: 40%;
+	min-width: 150px;
 }
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 22.4%;
 	float: right;
-	padding: 0 0 20px 20px;
+	padding: 0 0 2.1% 2.1%;
 }
 aside h2 {
 	color: #800000;
@@ -169,4 +181,64 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 959px){
+	section h1 {
+		font-size: 135%;
+	}
+	section h2, aside h2 {
+		font-size: 120%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: none;
+	}
+
+	#mobile_menu {
+		display: block;
+	}
+
+	#mobile_menu .slicknav_menu {
+		background: #800000;
+	}
+
+	header img, section, aside {
+		float: none;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	aside {
+		padding-right: 2.1%;
+		width: 95.8%;
+	}
+
+	section {
+		width: 95.8%;
+	}
+
+	article img {
+		max-width: 30%;
+	}
+
+	aside .speakers {
+		column-count: 2;
+	}
+
+
+}
+
+@media only screen and (max-width: 479px) {
+	body {
+		font-size: 90%;
+	}
+
 }
