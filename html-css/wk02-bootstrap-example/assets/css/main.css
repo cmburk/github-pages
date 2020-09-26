@@ -1,0 +1,25 @@
+.carousel-item {
+    max-height:500px;
+    }
+
+.quote {
+    text-align: center;
+    margin: 72px auto;
+}
+
+.card-section {
+    padding: 72px;
+}
+
+#transportation {
+    background-color: #ffbe76;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+#list {
+    padding: 72px;
+    background-color:#cecece;
+}
