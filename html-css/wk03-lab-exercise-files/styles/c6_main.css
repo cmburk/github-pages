@@ -72,6 +72,7 @@ nav ul li a{
 	display:none;
 	position: absolute;
 	top: 100%;
+<<<<<<< HEAD
 	float: none;
 	}
 #nav_menu ul li:hover>ul{
@@ -81,6 +82,11 @@ nav ul li a{
 	content:"";
 	display:block;
 	clear: both;
+=======
+}
+#nav_menu ul li:hover>ul{
+	display: block;
+>>>>>>> 68fee619ee49d702a5aca62071a1183de47e3863
 }
 .current{
 	color: yellow;
@@ -118,9 +124,12 @@ section ul {
 section li {
 	padding-bottom: .35em;
 }
+<<<<<<< HEAD
 ul{
 	list-style-type: circle;
 }
+=======
+>>>>>>> 68fee619ee49d702a5aca62071a1183de47e3863
 
 /* the styles for the article */
 article {
